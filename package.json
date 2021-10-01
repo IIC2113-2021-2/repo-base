@@ -1,0 +1,28 @@
+{
+  "name": "repo_base",
+  "private": true,
+  "dependencies": {
+    "@activeadmin/activeadmin": "^2.9.0",
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "4.3.0",
+    "activeadmin_addons": "^1.0.0",
+    "arctic_admin": "^4.0.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "turbolinks": "^5.2.0"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "autoprefixer": "^9",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.24.2",
+    "postcss": "^7",
+    "stylelint": "^13.13.1",
+    "webpack-dev-server": "^4.3.0"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
