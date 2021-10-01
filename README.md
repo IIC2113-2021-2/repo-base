@@ -17,12 +17,11 @@ The script will do the following among other things:
 - Prepare your database
 - Adds heroku remotes
 
-After the app setup is done you can run it with [Heroku Local]
+After the app setup is done you can run it with:
 
-    $ heroku local
+    $ ./bin/rails server
 
-[Heroku Local]: https://devcenter.heroku.com/articles/heroku-local
-
+Make sure that you have set up your environment variables. The necessary environment variables are availables in `.env.development`, secrets variables which can't be uploaded to GitHub, can be declared in a local file named `.env.local`.
 
 ## Continuous Integrations
 
